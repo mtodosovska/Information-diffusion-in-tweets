@@ -9,6 +9,7 @@ data_e = data1.append(data2)
 cr = list(data_e['createdat'])
 id = list(data_e['id'])
 sentiment = list(data_e['sentiment'])
+
 tweet = list(data_e['tweet'])
 names = ['Tweet ID', 'Sentiment', 'Tweet']
 data_electoral = pd.DataFrame(columns=names)
@@ -56,8 +57,8 @@ datas_3 = datas_3.append(datas_4)
 datas_1 = datas_1.append(datas_3)
 datas_1 = datas_1.drop(labels='ID', axis='columns')
 
-data_stance = datas_1[names]
-data = data_electoral.append(data_stance)
+data = data_stance = datas_1[names]
+# data = data_electoral.append(data_stance)
 data.to_csv('data/data_all.csv')
 
 
