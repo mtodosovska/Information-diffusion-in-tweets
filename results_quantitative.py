@@ -82,15 +82,28 @@ Neutral 32856780.8383
 
 -------------------------T - test:-------------------------
 ### num_retweets ###
-Ttest_indResult(statistic=0.19204592185476993, pvalue=0.84776782490354985)
+1 Ttest_indResult(statistic=0.19204592185476993, pvalue=0.84776782490354985)
+2 Ttest_indResult(statistic=1.5094326267689884, pvalue=0.13234898469473819)
+3 Ttest_indResult(statistic=1.4333818103797509, pvalue=0.15241504090100283)
 ### num_retweets_norm ###
-Ttest_indResult(statistic=-0.6968760282557569, pvalue=0.48613621596018297)
+1 Ttest_indResult(statistic=-0.6968760282557569, pvalue=0.48613621596018297)
+2 Ttest_indResult(statistic=0.7912899498741075, pvalue=0.42946426784304792)
+3 Ttest_indResult(statistic=0.44022437366421024, pvalue=0.65997741999518289)
 ### num_faves ###
-Ttest_indResult(statistic=-0.65286456623899569, pvalue=0.51408062832912349)
+1 Ttest_indResult(statistic=-0.65286456623899569, pvalue=0.51408062832912349)
+2 Ttest_indResult(statistic=0.94471545837038606, pvalue=0.34564258006478288)
+3 Ttest_indResult(statistic=0.97919408375147732, pvalue=0.32798891192440005)
 ### num_faves_norm ###
-Ttest_indResult(statistic=1.4657716645247412, pvalue=0.14320704772086731)
+1 Ttest_indResult(statistic=1.4657716645247412, pvalue=0.14320704772086731)
+2 Ttest_indResult(statistic=0.8581549903069321, pvalue=0.39156243785242439)
+3 Ttest_indResult(statistic=0.43126002610531161, pvalue=0.66647746702498933)
 ### steps ###
-Ttest_indResult(statistic=0.95053535223025498, pvalue=0.34220307650647497)
+1 Ttest_indResult(statistic=0.95053535223025498, pvalue=0.34220307650647497)
+2 Ttest_indResult(statistic=0.94977017934833585, pvalue=0.3430721601459199)
+3 Ttest_indResult(statistic=0.47087636416724871, pvalue=0.63794795530547577)
 ### followers ###
-Ttest_indResult(statistic=2.4807245247753622, pvalue=0.013370310880222964)
+1 Ttest_indResult(statistic=2.4807245247753622, pvalue=0.013370310880222964)
+2 Ttest_indResult(statistic=1.3819248545427112, pvalue=0.16812864505784042)
+3 Ttest_indResult(statistic=0.52555671319770836, pvalue=0.59944462320192926)
+
 
