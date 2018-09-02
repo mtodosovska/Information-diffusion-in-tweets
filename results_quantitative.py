@@ -79,3 +79,18 @@ Neutral 0.148760330579
 Positive: 1398420139.14
 Negative: 382096144.082
 Neutral 32856780.8383
+
+-------------------------T - test:-------------------------
+### num_retweets ###
+Ttest_indResult(statistic=0.19204592185476993, pvalue=0.84776782490354985)
+### num_retweets_norm ###
+Ttest_indResult(statistic=-0.6968760282557569, pvalue=0.48613621596018297)
+### num_faves ###
+Ttest_indResult(statistic=-0.65286456623899569, pvalue=0.51408062832912349)
+### num_faves_norm ###
+Ttest_indResult(statistic=1.4657716645247412, pvalue=0.14320704772086731)
+### steps ###
+Ttest_indResult(statistic=0.95053535223025498, pvalue=0.34220307650647497)
+### followers ###
+Ttest_indResult(statistic=2.4807245247753622, pvalue=0.013370310880222964)
+
