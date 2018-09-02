@@ -54,3 +54,28 @@ Neutral 10.0
 Positive: 2166613.0
 Negative: 1784383.0
 Neutral 159232.0
+-------------------------Variance:-------------------------
+### num_retweets ###
+Positive: 7.04639186005
+Negative: 6.70307299371
+Neutral 0.371570247934
+### num_retweets_norm ###
+Positive: 3.10441686164e-05
+Negative: 0.00241084844744
+Neutral 4.97773371625e-07
+### num_faves ###
+Positive: 21.2758282771
+Negative: 50.1871301775
+Neutral 0.970578512397
+### num_faves_norm ###
+Positive: 0.000824469225803
+Negative: 0.000203758098262
+Neutral 1.79602148513e-05
+### steps ###
+Positive: 0.183440712245
+Negative: 0.165397328033
+Neutral 0.148760330579
+### followers ###
+Positive: 1398420139.14
+Negative: 382096144.082
+Neutral 32856780.8383
