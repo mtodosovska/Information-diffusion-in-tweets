@@ -3,6 +3,7 @@ import numpy as np
 from get_retweets import getRetweets
 import pandas as pd
 import ast
+import networkx as nx
 
 
 def gatherTweets():
@@ -10,11 +11,10 @@ def gatherTweets():
     j = 0
     data = pd.read_csv('data/data_all.csv')
 
-    for index, row in data.iterrows():
-
-        print('Number: ', j)
+    for index, row in data.iloc[4437:, :].iterrows():
+        print('Number: ', j+4437)
         j += 1
-        tweet = getRetweets(int(row['Tweet ID']), row['Sentiment'], row['Tweet'])
+        getRetweets(int(row['Tweet ID']), row['Sentiment'], row['Tweet'])
 
 
 def clean_tweet(tweet):
@@ -88,5 +88,5 @@ def get_stats():
     nes.to_csv('data/neither.csv')
 
 gatherTweets()
-get_stats()
+# get_stats()
 
