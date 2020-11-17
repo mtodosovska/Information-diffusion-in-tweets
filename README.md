@@ -1,12 +1,21 @@
 # Information-diffusion-in-tweets
 Analysing the difference between diffusion of information between positive and negative tweets.
 
+
+## Problem discription
+The goal of this project is to show the different ways in which diffusion happens between positive and negative information through analysis of the different ways in which tweets spread depending on whether their sentiment is positive or negative. Towards this goal, we analysed the tweets in our dataset from two perspectives:
+* Quantitatively: average number of retweets and faves normalised by the number of followers for every users, the average number of steps of propagation of tweets, average and total number of followers of the users who posted them, etc
+* Temporally: the time of posting of the first retweet and number of retweets during X amount of hours. From this data we extracted statistics about the way tweets spread temporally: the shortest time of retweeting in every category, maximum number of retweets of every category, a maximum number of categories during 1 hour and 24 hours, etc.
+
+## Conclusion
+The short conclusion of this analysis is that on average positive tweets are retweeted more, and reach further. However, if the raw numbers are looked at we can conclude that there is a higher total number of retweets and favourites for negative tweets. This indicates that the volume of negative tweets is bigger, even though a positive tweet carries a bigger value for effort. 
+
+
 ## Опис на проблемот
 Целта на овој проект беше да се покаже различниот начин на кој постои дифузија на информациите помеѓу позитивни и негативни информации, односно, различниот начин на кој се шират твитовите на Твитер во зависност од тоа дали се позитивни или негативни. За оваа цел, ние ги анализиравме твитовите од нашето податочно множество од два аспекти:
-\begin{itemize}
-	\item Квантитативен аспект: оваа анализа вклучуваше наоѓање на просечниот број на retweets и faves нормализирани по бројот на следачи за секој корисник, вкупниот број на retweets и faves, просечниот број на чекори на пропагација на некој твит, просечниот и вкупниот број на следачи кои ги имаат корисниците кои ги постирале твитовите.
-	\item Временски аспект : со овој аспект ги анлизиравме времето на објавување на првиот retweet (под услов да бил ретвитнат твиот) и наоѓање на број на retweets  за Х часови. Потоа од овие податоци ги издвоивме најкрaткото време на објавување retweet на секоја категорија како и максимум retweets по категорија за време од 1 час и 24 часа.
-\end{itemize}
+* Квантитативен аспект: оваа анализа вклучуваше наоѓање на просечниот број на retweets и faves нормализирани по бројот на следачи за секој корисник, вкупниот број на retweets и faves, просечниот број на чекори на пропагација на некој твит, просечниот и вкупниот број на следачи кои ги имаат корисниците кои ги постирале твитовите.
+* Временски аспект : со овој аспект ги анлизиравме времето на објавување на првиот retweet (под услов да бил ретвитнат твиот) и наоѓање на број на retweets  за Х часови. Потоа од овие податоци ги издвоивме најкрaткото време на објавување retweet на секоја категорија како и максимум retweets по категорија за време од 1 час и 24 часа.
+
 
 
 ## Податоци
@@ -81,8 +90,6 @@ Analysing the difference between diffusion of information between positive and n
 	* Positive: 53.0
 	* Negative: 87.0
 	* Neutral 10.0
-
-Резулати добиени од временската анализа: 
 
 ## Референци
 [1] Mohammad, Saif, et al. "A Dataset for Detecting Stance in Tweets." LREC. 2016.
